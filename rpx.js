@@ -51,7 +51,7 @@ http.createServer(function(request, response) {
       });
   }
 })
-.listen(5000);
+.listen(process.env.PORT);
 
 console.log('Server running at http://localhost:5000/');
 
