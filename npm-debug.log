@@ -1,0 +1,40 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '_ref', '--save' ]
+2 info using npm@2.5.1
+3 info using node@v0.12.0
+4 verbose node symlink /usr/local/bin/node
+5 warn package.json Janrain-Sample-Code@0.0.0 No description
+6 warn package.json Janrain-Sample-Code@0.0.0 No README data
+7 warn package.json fs@0.0.2 fs is also the name of a node core module.
+8 warn package.json fs@0.0.2 No description
+9 warn package.json fs@0.0.2 No repository field.
+10 warn package.json fs@0.0.2 No README data
+11 warn package.json http@0.0.0 http is also the name of a node core module.
+12 warn package.json http@0.0.0 No description
+13 warn package.json http@0.0.0 No repository field.
+14 warn package.json https@1.0.0 https is also the name of a node core module.
+15 warn package.json https@1.0.0 No repository field.
+16 warn package.json querystring@0.2.0 querystring is also the name of a node core module.
+17 silly cache add args [ '_ref', null ]
+18 verbose cache add spec _ref
+19 silly cache add parsed spec { raw: '_ref',
+19 silly cache add   scope: null,
+19 silly cache add   name: null,
+19 silly cache add   rawSpec: '_ref',
+19 silly cache add   spec: '/Users/michaelmontero/Desktop/janrain/_ref',
+19 silly cache add   type: 'local' }
+20 error addLocal Could not install /Users/michaelmontero/Desktop/janrain/_ref
+21 verbose stack Error: ENOENT, open '/Users/michaelmontero/Desktop/janrain/_ref'
+21 verbose stack     at Error (native)
+22 verbose cwd /Users/michaelmontero/Desktop/janrain
+23 error Darwin 14.1.0
+24 error argv "node" "/usr/local/bin/npm" "install" "_ref" "--save"
+25 error node v0.12.0
+26 error npm  v2.5.1
+27 error path /Users/michaelmontero/Desktop/janrain/_ref
+28 error code ENOENT
+29 error errno -2
+30 error enoent ENOENT, open '/Users/michaelmontero/Desktop/janrain/_ref'
+30 error enoent This is most likely not a problem with npm itself
+30 error enoent and is related to npm not being able to find a file.
+31 verbose exit [ -2, true ]
