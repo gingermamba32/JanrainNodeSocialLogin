@@ -51,6 +51,8 @@ http.createServer(function(request, response) {
       });
   }
 })
+//needed to be port to bind to the heroku port
+//.listen(5000)
 .listen(process.env.PORT);
 
 console.log('Server running at http://localhost:5000/');
